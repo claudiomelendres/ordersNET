@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersProjectAPI", "OrdersP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersWeb", "OrdersWeb\OrdersWeb.csproj", "{AD61C0A0-5E57-4294-A7A4-90DD6CE5E7FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebClaudio", "TestWeb\TestWebClaudio.csproj", "{F9E6AC5A-31EC-4DFA-984A-9C2F282F0B35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AD61C0A0-5E57-4294-A7A4-90DD6CE5E7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD61C0A0-5E57-4294-A7A4-90DD6CE5E7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD61C0A0-5E57-4294-A7A4-90DD6CE5E7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E6AC5A-31EC-4DFA-984A-9C2F282F0B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E6AC5A-31EC-4DFA-984A-9C2F282F0B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E6AC5A-31EC-4DFA-984A-9C2F282F0B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E6AC5A-31EC-4DFA-984A-9C2F282F0B35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
