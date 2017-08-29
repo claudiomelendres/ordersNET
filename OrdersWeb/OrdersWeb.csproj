@@ -280,6 +280,21 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Catalogs\Categories.cshtml" />
     <Content Include="Views\Catalogs\Products.cshtml" />
+    <Content Include="Views\Home\Auto1.cshtml" />
+    <Content Include="Views\Home\Auto2.cshtml" />
+    <Content Include="Views\Home\Auto3.cshtml" />
+    <Content Include="Views\Home\Auto4.cshtml" />
+    <Content Include="Views\Home\Auto5.cshtml" />
+    <Content Include="Views\Home\Auto6.cshtml" />
+    <Content Include="Views\Home\Auto7.cshtml" />
+    <Content Include="Views\Home\Auto8.cshtml" />
+    <Content Include="Views\Home\Auto9.cshtml" />
+    <Content Include="Views\Home\Auto10.cshtml" />
+    <Content Include="Views\Home\Auto11.cshtml" />
+    <Content Include="Views\Home\Auto12.cshtml" />
+    <Content Include="Views\Home\Auto13.cshtml" />
+    <Content Include="Views\Home\Auto14.cshtml" />
+    <Content Include="Views\Home\Auto15.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

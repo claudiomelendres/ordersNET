@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Auto15";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Auto15</h2>
+
+<div class="container">
+    <h3>Tooltip Example</h3>
+    <p>The data-placement attribute specifies the tooltip position.</p>
+    <ul class="list-inline">
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a></li>
+    </ul>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+<br />
+<br />
+
+<div>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+</div>

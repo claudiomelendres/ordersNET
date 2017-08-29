@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Auto7";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Auto7</h2>
+
+<div class="container">
+    <h2>Dropdowns</h2>
+    <p>The .divider class is used to separate links inside the dropdown menu with a thin horizontal line:</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            Tutorials
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li class="divider"></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Dropdowns</h2>
+    <p>The .active class adds a blue background color to the active link.</p>
+    <p>The .disabled class disables a dropdown item (grey text color).</p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            Tutorials
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Normal</a></li>
+            <li class="disabled"><a href="#">Disabled</a></li>
+            <li class="active"><a href="#">Active</a></li>
+            <li><a href="#">Normal</a></li>
+        </ul>
+    </div>
+</div>
+
+
