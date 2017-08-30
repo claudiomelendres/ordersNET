@@ -1,0 +1,7 @@
+D:\Proyectos\ordersNET\TestWeb\bin\Debug\TestWeb.dll
+D:\Proyectos\ordersNET\TestWeb\bin\Debug\TestWeb.pdb
+D:\Proyectos\ordersNET\TestWeb\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Proyectos\ordersNET\TestWeb\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWebClaudio.csprojResolveAssemblyReference.cache
+D:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWeb.dll
+D:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWeb.pdb
