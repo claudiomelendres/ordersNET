@@ -5,3 +5,9 @@ D:\Proyectos\ordersNET\TestWeb\bin\Debug\Microsoft.VisualStudio.QualityTools.Uni
 D:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWebClaudio.csprojResolveAssemblyReference.cache
 D:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWeb.dll
 D:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWeb.pdb
+C:\Proyectos\ordersNET\TestWeb\bin\Debug\TestWeb.dll
+C:\Proyectos\ordersNET\TestWeb\bin\Debug\TestWeb.pdb
+C:\Proyectos\ordersNET\TestWeb\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Proyectos\ordersNET\TestWeb\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWeb.dll
+C:\Proyectos\ordersNET\TestWeb\obj\Debug\TestWeb.pdb

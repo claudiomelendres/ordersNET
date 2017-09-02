@@ -2,7 +2,7 @@
 
     //get All Categories
     this.getCategories = function () {
-        var result = $http.get('http://localhost/OrdersAPI/api/Categories');
+        var result = $http.get('http://localhost:33991/api/Categories');
         return result;
     };
 
@@ -15,7 +15,7 @@
         //        id: JSON.stringify(CategoryId)
         //    }
         //});
-        var response = $http.get("http://localhost/OrdersAPI/api/Categories", {
+        var response = $http.get("http://localhost:33991/api/Categories", {
             params: { id: CategoryId }
         });
         var mydesc = response.description;
@@ -30,7 +30,7 @@
         var response = $http({
             method: "PUT",
             params: { id: category.Id },
-            url: "http://localhost/OrdersAPI/api/Categories",
+            url: "http://localhost:33991/api/Categories",
             data: data,
             headers: { "Content-Type": "application/json; charset=utf-8" }
         }).then(function (result) {
@@ -46,7 +46,7 @@
     this.AddCategory = function (category) {
         var response = $http({
             method: "post",
-            url: "http://localhost/OrdersAPI/api/Categories",
+            url: "http://localhost:33991/api/Categories",
             data: JSON.stringify(category),
             dataType: "json"
         });
@@ -57,7 +57,7 @@
     this.deleteCate = function (categoryId) {
         var response = $http({
             method: "delete",
-            url: "http://localhost/OrdersAPI/api/Categories",
+            url: "http://localhost:33991/api/Categories",
             params: {
                 Id: JSON.stringify(categoryId)
             }
@@ -70,13 +70,13 @@ appProducts.service("ServiceProducts", function ($http) {
 
     //get All Products
     this.getProducts = function () {
-        var result = $http.get('http://localhost/OrdersAPI/api/Products');
+        var result = $http.get('http://localhost:33991/api/Products');
         return result;
     };
 
     // get Product by CProductId
     this.getCategory = function (ProductId) {
-        var response = $http.get("http://localhost/OrdersAPI/api/Products", {
+        var response = $http.get("http://localhost:33991/api/Products", {
             params: { id: ProductId }
         });
         var mydesc = response.description;
@@ -91,7 +91,7 @@ appProducts.service("ServiceProducts", function ($http) {
         var response = $http({
             method: "PUT",
             params: { id: product.Id },
-            url: "http://localhost/OrdersAPI/api/Products",
+            url: "http://localhost:33991/api/Products",
             data: data,
             headers: { "Content-Type": "application/json; charset=utf-8" }
         }).then(function (result) {
@@ -107,7 +107,7 @@ appProducts.service("ServiceProducts", function ($http) {
     this.AddProduct = function (product) {
         var response = $http({
             method: "post",
-            url: "http://localhost/OrdersAPI/api/Products",
+            url: "http://localhost:33991/api/Products",
             data: JSON.stringify(product),
             dataType: "json"
         });
@@ -118,7 +118,7 @@ appProducts.service("ServiceProducts", function ($http) {
     this.deleteProd = function (productId) {
         var response = $http({
             method: "delete",
-            url: "http://localhost/OrdersAPI/api/Products",
+            url: "http://localhost:33991/api/Products",
             params: {
                 Id: JSON.stringify(productId)
             }
@@ -128,7 +128,7 @@ appProducts.service("ServiceProducts", function ($http) {
 
     //get All Categories
     this.getCategories2 = function () {
-        var result = $http.get('http://localhost/OrdersAPI/api/Categories');
+        var result = $http.get('http://localhost:33991/api/Categories');
         return result;
     };
 });
